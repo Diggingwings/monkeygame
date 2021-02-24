@@ -6,12 +6,11 @@ var FoodGroup, bananaImage;
 var obstaclesGroup, obstacle_img;
 
 var gameOver;
-var score=0;
 
 
 function preload(){
   backImage=loadImage("jungle.jpg");
-  player_running = loadAnimation("monkey_01.png","monkey_02.png","monkey_03.png","monkey_04.png","monkey_05.png","monkey_06.png","monkey_07.png","monkey_08.png","monkey_09.png","monkey_10.png");
+  player_running = loadAnimation("Project_16_(Happy_monkey_1)_2021_02_24_16_35_35/monkey_01.png","Project_16_(Happy_monkey_1)_2021_02_24_16_35_35/monkey_02.png","Project_16_(Happy_monkey_1)_2021_02_24_16_35_35/monkey_03.png","Project_16_(Happy_monkey_1)_2021_02_24_16_35_35/monkey_04.png","Project_16_(Happy_monkey_1)_2021_02_24_16_35_3/monkey_05.png","Project_16_(Happy_monkey_1)_2021_02_24_16_35_35/monkey_06.png","Project_16_(Happy_monkey_1)_2021_02_24_16_35_35/monkey_07.png","Project_16_(Happy_monkey_1)_2021_02_24_16_35_35/monkey_08.png","Project_16_(Happy_monkey_1)_2021_02_24_16_35_35/monkey_09.png","Project_16_(Happy_monkey_1)_2021_02_24_16_35_35/monkey_10.png");
   
   
 
